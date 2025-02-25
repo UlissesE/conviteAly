@@ -1,0 +1,36 @@
+.logo  {
+    width: auto;
+    height: 300px;
+        padding: 30px;
+        padding-top: 70px;
+        padding-left: 40%;
+}
+
+.envelope-container .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem se ajustar sem distorções */
+}
+
+
+.envelope {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    font-size: 100vh;
+}
+
+.envelope.open {
+    transform: translateY(-15%);
+}
+
+
+.envelope-body {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 1%;
+    background: var(--cor-de-fundo) z-index 1;
+}

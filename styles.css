@@ -1,0 +1,119 @@
+@import url(envelope.css);
+@import url(carta.css);
+
+:root {
+    --cor-de-fundo: #fff0c6;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    width: 100%;  
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.titulo {
+    font-size: 100px;
+    margin: 2%;
+}
+
+.texto {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.espaço {
+    width: 50px;
+    margin-bottom: 200px;
+}
+
+.h2 {
+    font-size: 70px;
+    margin: 60px;
+}
+
+.despedida {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.despedida1 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+    .envelope-container {
+        display: block;
+    }
+
+    .imagem {
+        width: 100%;
+    }
+    
+    .envelope.open {
+        transform: translateY(-17%);
+    }
+
+
+    .titulo {
+        font-size: 40px;
+        margin: 2%;
+    }
+    
+    .texto {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        max-width: 100%;
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    
+    .espaço {
+        width: 20px;
+        margin-bottom: 100px;
+    }
+    
+    .h2 {
+        font-size: 30px;
+        margin: 30px;
+    }
+    
+    .despedida {
+        margin-top: 60px;
+        font-size: 18px;
+    }
+
+    .despedida1 {
+        margin-top: 60px;
+        font-size: 24px;
+    }
+
+    .logo  {
+        width: 80%;
+        height: auto;
+            padding: 30px;
+            padding-top: 70px;
+            padding-left: 11.1%;
+    }
+
+    .botao_convite {
+        margin-left: 0%;     
+}
+
+    .convite{
+        padding-left: 0%;
+        padding-top: 20px;
+    }
+
+}
